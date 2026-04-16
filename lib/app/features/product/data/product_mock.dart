@@ -16,4 +16,11 @@ final List<ProductModel> productMock = [
     price: 1500.00,
     image: 'assets/images/monitor.webp',
   ),
+  ProductModel(
+    id: 3,
+    name: 'Mouse',
+    description: 'Mouse analógico de bolinha com 3 botões e sem scroll',
+    price: 5000.00,
+    image: 'assets/images/monitor.webp',
+  ),
 ];

@@ -93,7 +93,8 @@ class _ProductListPageState extends State<ProductListPage> {
                         ),
                         const SizedBox(width: 8),
                         ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () =>
+                              viewModel.onProductPressed(context, product),
                           child: const Text("Ver"),
                         ),
                       ],

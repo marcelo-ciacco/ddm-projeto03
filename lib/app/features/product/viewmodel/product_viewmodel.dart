@@ -10,6 +10,6 @@ class ProductViewModel extends ChangeNotifier {
   List<ProductModel> get products => _products;
 
   void onProductPressed(BuildContext context, ProductModel product) {
-    Navigator.pushNamed(context, AppRoutes.productDetail);
+    Navigator.pushNamed(context, AppRoutes.productDetail, arguments: product);
   }
 }
